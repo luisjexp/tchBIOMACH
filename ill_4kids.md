@@ -1,8 +1,8 @@
 # Intro
-Here is a fun and simple presentation to expose students, of any age, to various illusions with some simple explanations of how they happen. Some explanations are oversimplified and are rigourous treatments of the topics, but instead a fun module to introduce illusions.   
+Here is a fun and simple presentation to expose students, of any age, to various illusions with some simple explanations of how they happen. Some explanations are oversimplified. They are not rigourous treatments of the topics, but instead a fun module to introduce illusions.   
 
 # Blind Spot
-![Blind Spot](illASSETS/blind_spot.png)
+![Blind Spot](bmcASSETS/blind_spot.png)
 
 What to do
 
@@ -26,7 +26,7 @@ eye; you'll notice that its position is mirrored.
 
 # Adaptation Illusions
 ## Motion Induced Blindness 
-![](illASSETS/motion_induced_blindness.png)
+![](bmcASSETS/motion_induced_blindness.png)
 Instructions
 
 Have ½ of the student fixate on the center (the flashing red/green spot). Tell them to not to let their gaze wander from it. 
@@ -46,7 +46,7 @@ Explanation
 See the Troxler effect (cat illusion)
 
 ## Troxler Effect
-![](illASSETS/troxler_effect.png)
+![](bmcASSETS/troxler_effect.png)
 Instructions
 Keep very still and keep your gaze focused on the central black cross. Do not strain your eyes, but also try not to let your gaze wander from the cross. Wait at least 30 seconds for this effect to take place (some people take longer).
 
@@ -62,7 +62,7 @@ Neurons become desensitized (i.e. they stop responding) when they are stimulated
 -	Allowing your gaze to move (which one does constantly under normal viewing conditions) will essentially shift the images that project onto the back of your eye, which will prevent neurons from desensitizing. 
 
 ## MAE (Waterfall Illusion)
-![](illASSETS/motion_after_effect.png)
+![](bmcASSETS/motion_after_effect.png)
 
 
 Instructions:
@@ -81,7 +81,7 @@ Recall that when you stimulate a group of neurons for too long (such as when you
 -	When you stare at this downward movement for too long, you are desensitizing the group of neurons that prefer to downward motion. 
 -	When you look away, neurons that detect movement in the opposite direction (e.g., upwards) are more active in comparison. This results in the appearance of the stationary object moving in the latter direction (upwards).
 
-![](illASSETS/motion_after_effect_explain.png)
+![](bmcASSETS/motion_after_effect_explain.png)
 
 
 
@@ -124,7 +124,7 @@ The back of your eye contains receptors of light. These receptors are arranged i
 
 # Context Matters
 ## Adelson's Checkerboard
-![](illASSETS/adelsons_checkerboard_illusion.png)
+![](bmcASSETS/adelsons_checkerboard_illusion.png)
 
 Instructions
 Look at the two target squares labelled "A" and "B". Is one darker than the other? Likewise, in the folder paper image, compare the brightness of the squares with the two dots.
@@ -154,7 +154,7 @@ https://wolfe4e.sinauer.com/wa05.05.html
 # Stimulus Ambiguity
 
 ## Introduction
-![](illASSETS/projection_of_points_in_visual_space.png)
+![](bmcASSETS/projection_of_points_in_visual_space.png)
 Introducing This Section….
 Your only “access” to the real world through your senses. That is, your senses provide you with all the information about the reality that you live in – they have to interpret, or translate, the information they receive about reality pass that on to you. Your senses must, therefore, accurately and faithfully represent the reality and the objects that surround you. If your senses misinterpret this information that can be detrimental for your survival. 
 
@@ -162,11 +162,11 @@ Luckily, your senses are very good at interpreting information, and you rarely h
 
 Consider the figure below. Note that any image that your eye receives could have been created by a multitude of objects….
 
-![First explain projection onto 2D surface](illASSETS/projection_of_points_in_visual_space.png)
+![First explain projection onto 2D surface](bmcASSETS/projection_of_points_in_visual_space.png)
 
-![](illASSETS/ambiguity_1.png)
+![](bmcASSETS/ambiguity_1.png)
 
-![](illASSETS/ambiguity_2.jpg)
+![](bmcASSETS/ambiguity_2.jpg)
 
  
 Top Left: A small square object viewed face on at a close distance has the same image as a large square object that’s farther away.
@@ -179,7 +179,7 @@ The objects in the figure above project the same image onto the back of your eye
 
 ## Necker's Cube
 necker_cube.png
-![](illASSETS/necker_cube.png)
+![](bmcASSETS/necker_cube.png)
 
 [Necker Cube link](http://www.michaelbach.de/ot/sze-Necker/index.html)
 
@@ -199,7 +199,7 @@ First, we need to appreciate that the percept of a 3-dimensional wireframe cube 
 
  
 ## Schroeder’s Stairs
-![](illASSETS/staircase.png)
+![](bmcASSETS/staircase.png)
 
 
 Instructions
@@ -211,7 +211,7 @@ You should experience a switch between seeing the stairs running from top left t
 
 
 ## The Missing Corner
-![](illASSETS/missing_corner.png)
+![](bmcASSETS/missing_corner.png)
 
 [See illusion here](http://www.michaelbach.de/ot/sze-missCornerCube/index.html)
  
@@ -226,7 +226,7 @@ Without stereoscopic depth information and without clear illumination cues, all 
 
 
 ## Bistable Motion
-![](illASSETS/motion_bistable.png)
+![](bmcASSETS/motion_bistable.png)
 
 
 [See illusion here](http://www.slate.com/articles/health_and_science/science/2015/02/what_color_is_this_dress_a_scientist_explains_visual_ambiguity_and_color.html)

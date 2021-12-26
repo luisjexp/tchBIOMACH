@@ -29,18 +29,18 @@ Take a look at this illustration. The array of pink/orange-ish spheres represent
 
 They do this calculating the similarity between their filter and the image region they are analyzing. 
 
-![s](bmlASSETS/2018_williams_receptive_field_CNN.png)
-![fig](bmlASSETS/FIGUREOFNEURONRFhERE.png)
+![s](bmcASSETS/2018_williams_receptive_field_CNN.png)
+![fig](bmcASSETS/FIGUREOFNEURONRFhERE.png)
 
 ### Images as Matrices
 Now lets talk about how exactly neurons determine the simlarity between their filter and the feature within in some image region. To do this we need to start thinking of all images as an matrix of pixels where each pixel has some luminance value associated with it. The larger the value, the 'lighter' the pixel is. Lets keep it simple only think about black and white images. Its not too difficult to see the resemblance between the image and its corresponding matrix of numbers...
-![](bmlASSETS/images_as_matrices_a.png)
+![](bmcASSETS/images_as_matrices_a.png)
 
 The pixels of an image and their associated 'luminance' values correspond to the inputs received by the neuron. Notice how the neuron 'looks' at a small part of the visual image. 
 
-![](bmlASSETS/perceptron_vs_neuron.png)
+![](bmcASSETS/perceptron_vs_neuron.png)
 
-![](bmlASSETS/2018_williams_receptive_field_CNN.png)
+![](bmcASSETS/2018_williams_receptive_field_CNN.png)
 
 Neurons are smart. They designed their filters to resemble the feature they are looking for. When the neuron's filter passes over some part of the image, it can determine how much that image region matches its own filter. If the it matches, then the neuron activates, signaling the rest of the brain that the feature is there.
 
@@ -57,9 +57,9 @@ The local image region that the neuron looks at, and the weights that the neuron
 This is what the neuron's filter would look like if it were converted to a matrix. You can think about these number representing the strength and diection of the weight that is applied to the pixels. 
 
 
-![Projection of image point](bmlASSETS/2013_Pratt_orientedfilters_eg.png)
+![Projection of image point](bmcASSETS/2013_Pratt_orientedfilters_eg.png)
 [Pratt](DIP_Ch15)
-![](bmlASSETS/2018_williams_receptive_field_CNN.png)
+![](bmcASSETS/2018_williams_receptive_field_CNN.png)
 
 
 ### The Linear Combination
@@ -73,65 +73,6 @@ Notice how the filter IS essentially the array of weights that the neuron assign
 - Some of its weights are strong in magnitude (large negative or positive), while others are weak (weights near 0) or inexistant (the weights outside of the filter) . 
 
 Further more, notice that the pixels can be thought of as the inputs to the neuron
-
-
-
-
-# Other references
-> You can read more on neurons as feature detection here in this paper [ Pang 2016]()
->
-> <img src="grgASSETS/2016_pang_linfilters_detect_features.png" alt="Projection of image point" style="zoom:25%;" />Pang on Dimension Reduction (2016)
-
-
-
-![Projection of image point](file:///Users/luis/Box/prjGAURANG/grgASSETS/2016_pang_linfilters_detect_features.png?lastModify=1631335626)Pang on Dimension Reduction (2016)
-
-- You can see more on types of image filters [here](grgASSETS/2013_pratt_edgedection_ch15_slides.pdf)
-
-
-
-
-Here are some additional readings that elaborate on this one...
-- Notes on kernel/filter estimation + black box solution of feature visualization
-- Iterative step wise regression
-
-
- 
-
-
-
-References
-- https://classroom.udacity.com/courses/ud955/lessons/3186188679/concepts/32337687770923
-- https://classroom.udacity.com/courses/ud955/lessons/3186188679/concepts/32337687720923 
-
-- and xercise: https://classroom.udacity.com/courses/ud955/lessons/3186188679/concepts/32337687730923
-
-
-
-
-
-
-
-#  More on edge detection
-It has been proposed that the reason why visual cells would want to dect features is to summarize the vast amount of information that bombards the our eyes 124 a necessary step for storage and commutations purposes 125 . 
-
-
-*from wiki on Edge Detection*
-> The purpose of detecting sharp changes in image brightness is to capture important events and changes in properties of the world. It can be shown that under rather general assumptions for an image formation model, discontinuities in image brightness are likely to correspond to:[[2\]](https://en.wikipedia.org/wiki/Edge_detection#cite_note-2)[[3\]](https://en.wikipedia.org/wiki/Edge_detection#cite_note-lin95-3)
->
-> - discontinuities in depth,
-> - discontinuities in surface orientation,
-> - changes in material properties and
-> - variations in scene illumination.
->
-> In the ideal case, the result of applying an edge detector to an image may lead to a set of connected curves that indicate the boundaries of objects, the boundaries of surface markings as well as curves that correspond to discontinuities in surface orientation. Thus, applying an edge detection algorithm to an image may significantly reduce the amount of data to be processed and may therefore filter out information that may be regarded as less relevant, while preserving the important structural properties of an image. If the edge detection step is successful, the subsequent task of interpreting the information contents in the original image may therefore be substantially simplified. However, it is not always possible to obtain such ideal edges from real life images of moderate complexity.
->
-
-### Problems Edege Detection Approach
-> Edges extracted from non-trivial images are often hampered by *fragmentation*, meaning that the edge curves are not connected, missing edge segments as well as *false edges* not corresponding to interesting phenomena in the image – thus complicating the subsequent task of interpreting the image data.[[4\]](https://en.wikipedia.org/wiki/Edge_detection#cite_note-lin98-4)
-
-
-<u>Example</u>
 
 
 

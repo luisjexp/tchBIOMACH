@@ -1,6 +1,6 @@
 # The Neuroscience of Visual Illusions
 
-![Herman's Grid](bmlASSETS/hermans_grid_illusion.png)
+![Herman's Grid](bmcASSETS/hermans_grid_illusion.png)
 
 ## How do illusions help us understand the brain?
 One of the most general and important questions in visual neuroscience is **HOW**  our brains allow us to see. We want to know the mechanics of vision, and how the different parts of the visual system work together and process visual scenes and images. 

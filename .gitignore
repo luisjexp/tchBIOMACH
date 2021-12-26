@@ -8,3 +8,15 @@ todo.md
 bmcDATA/
 
 bmcCOMM/
+
+bmcPAPERS/
+
+*.pdf
+
+bmcASSETS/image_natural_projection_to_retina.svg
+
+*.pptx
+
+*.docx
+
+*.svg
