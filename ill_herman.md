@@ -1,13 +1,13 @@
 # HERMANS GRID
 ## What do yo see?
 ![Herman's Grid](illASSETS/hermans_grid_illusion.png)
-Here is an illusory image that we will call Herman's grid. Note that it consists of an regularly spaced array of squares seperated by vertical and horizontal strips of white lines. When viewed, the observer notices grey dots or smudges at the intersections of thse white line. Here we will discuss why we see them.
+Here is an illusory image known as Herman's grid. It is a regularly spaced array of dark squares seperated by vertical and horizontal strips of white lines. You should notice grey dots or smudges at the intersections of thse white line. Here we will discuss why we see them.
 
 ## The Classical Theory
 ### **Foundations**
-Before we discuss the neural mechanisms that underlie the illusion, lets go over some details about the visual neurons that tile the back of your eye. 
+Lets go over some details about some of visual neurons that tile the back of your eye. 
 
-These neurons are known as **center surround** retinal ganglion cells (we'll refer to them as **CS**  cells for brevity). CS neurons are invoked to explain the little gray blobs we see when viewing hermans grid. 
+There are neurons in youre eye known as **center surround** retinal ganglion cells. We'll refer to them as **CS**  cells for brevity. CS neurons are invoked to explain the little gray blobs we see when viewing hermans grid. 
 
 There are many properties of CS cells that one must remember to understand the (many) proposed hypothesis that underlie this illusion. Here are a few
 
@@ -19,7 +19,7 @@ There are many properties of CS cells that one must remember to understand the (
     - That is, the response of the cell does not depend on the orientation of a stimulus.
 
 ### **The Classical Model**...
-Now that we have the basics down, lets discuss the most classical of all hypothesis about why we observe those gray blobs on hermans grid. The model states that the illusory grey blobs seen at the grid's intersections are caused by the relatively weak activity of CS cells that are being stimuluated by those intersecting regions.  
+Now lets discuss the most classical of all hypothesis about why we perceive those gray blobs on hermans grid. The idea is that the blobs are caused by the relatively weak activity of CS cells that are stimulated by tge intersecting regions of the image.  
 
 Lets go over how this would work...
 * First, consider how  a CS would respond if the intersecting regions of the grid lands on its receptive field. The cell would weakly activate, because the grid's intersection provides too much 'lightness' in the surrounding region of the cells receptive field. 
@@ -34,7 +34,9 @@ The theory is simple but perhaps too simple. Lets go over two reasons why the th
 
 ### Problem1: The illusion is perceived over a large range of sizes
 **Prediction** 
-The classical model predicts that the illusion should only occur when the grid is a specific size, i.e. when the intersecting regions perfectly 'fit on top' of the receptive fields of CS cells. If the intersecting regions are too large such that they extent beyond the CS cells receptive fields, the illusion should go away. Can you think about what would happen when the grid is too small?
+The classical model predicts that the illusion should only occur when the grid is a specific size, i.e. when the intersecting regions perfectly 'fit on top' of the receptive fields of CS cells. If the intersecting regions are too large such that they extent beyond the CS cells receptive fields, the illusion should go away. 
+
+Can you think about what would happen when the grid is too small?
 
 **Reasoning**
 This prediction is based on the idea that retinal receptors, ganglion cells, and their receptive fields have fixed sizes. 

@@ -1,7 +1,7 @@
 
 # The Tilt Illusion
 ## What Do You See?
-![Simultaneous Tilt Effect](illASSETS/simultaneous_tilt_stimulus.png)
+![Simultaneous Tilt Effect](bmcASSETS/simultaneous_tilt_stimulus.png)
 
 or this one
 [https://michaelbach.de/ot/ang-tilt/](https://michaelbach.de/ot/ang-tilt/)
@@ -14,7 +14,7 @@ Notice that when the surround grating is vertical, we think that the central gra
 
 Out goal is determine why this happens.
 
-![2015 CLifford](illASSETS/2014_clifford_fig1.png)
+![2015 CLifford](bmcASSETS/2014_clifford_fig1.png)
 
 # 'Knowing' the Orientation of Objects
 Before introducing theories of the tilt illusion, lets go over how our visual system allow us 'know', or 'perceive' the orientation of an object.
@@ -45,7 +45,7 @@ What happens you view a orientated object, for example, a vertical grating? Such
 
 
 ## Bell shaped tuning curves
-Remember our discussion on [tuning curves](). Orientation Tuning curves are a description of a neurons output in response to an oriented stimulus. A classical tuning curve of orientation selective neurons is roughly bell shaped, ![shown here in figure A](illASSETS/population_tuning_curves_classical.png).  
+Remember our discussion on [tuning curves](). Orientation Tuning curves are a description of a neurons output in response to an oriented stimulus. A classical tuning curve of orientation selective neurons is roughly bell shaped, ![shown here in figure A](bmcASSETS/population_tuning_curves_classical.png).  
 
 ## Inihbition
 Recall our discussion on inhibitory mechanisms. When a visual neuron is excited, it also inhibit other cells. This is known as lateral inhbition. 
@@ -62,7 +62,7 @@ So how does the tilt effect work? [Tolhurst and Thomspon 1974]() provide a good 
 
 > ... inhibition between populations of orientation-specific detectors is responsible for the apparent tilt in simultaneous illusions. A stimulus at one orientation will excite apopulation of detec- tors: the most excited detectors will be those opti- mally sensitive to that orientation. but detectors optimally sensitive to other orientations will also be excited, though less strongly. If a second stimulus is added at a nearby orientation. the detectors responding to this stimulus will inhibit those responding to the first. The amount of inhibition will fall off as the optimal orientations of the interacting detec- tors are made more different. Thus, the population of detectors responding to the first stimulus will not be uniformly inhibited, and it is this non-uniformity which is  thought to give rise to the illusion of apparent tilt (Carpenter and Blakemore. 1973). If some of the detectors are inhibited by the second stimulus, it might be expected that the detection threshold for the first stimulus would be elevated.
 
-![Clifford 2014](illASSETS/2014_clifford_simtile_pureinhibition_model.png)
+![Clifford 2014](bmcASSETS/2014_clifford_simtile_pureinhibition_model.png)
 Lets discuss the figure A B and C above,  (taken from [Clifford 2014]()). 
 
 Figure A shows the popoulation tuning curve that results by when the central vertical grating is presented in isolation from from the surround grating. 
