@@ -1,5 +1,13 @@
+# Overview
+Neurons are feature detectors
+Why do they detect features
+How Do they detect features
+- Images as matrices: features in images
+- neurons as filters: features to extract
+- Extraction using similarity: linear combinations
+
 # Neurons as Feature Detectors
-Biological neurons in your sensory systems can be thought of as feature detectors. This means that a single neuron 'analyzes' the visual scene by searching for a 'feature' that is **important**
+Neurons in your visual system can be thought of as feature detectors. This means that a single neuron 'analyzes' the visual scene by searching for a 'feature' that is **important**
 
 One prime example of these feature detecting neurons are the 'orientation' detectors in the primary visual cortex, a brain region that is critical for vision. The neurons in this region 'analyze' different parts of an image by finding the location and orientation of edges in the image. 
 
@@ -21,7 +29,7 @@ This is where edge detection comes in. If we can find where edges are in the vis
 # Mechanics of Feature Detection
 Now lets discuss the mechanics, or physical processes, that allow neurons to detect these sharp edges. 
 
-How does a neuron accomplish this feature detection?  One idea is that neuronal units build filters that resemble the image feature that they want to detect. The neuron then 'looks' at a part of the imageand calculates the similarity, or the degree to which its filter matches that image region. The more that the image region resembles the neuron's filter, the more the neuron will 'beleive' that the image region contains that feature. 
+How does a neuron accomplish this feature detection?  One idea is that neuronal units build a filter that resembles the feature that they want to detect from an image. The neuron then 'looks' at a part of the image and calculates the degree to which its filter matches that image region. The more that the image region resembles the neuron's filter, the more the neuron will 'beleive' that the image region contains that feature. 
 
 Orientation detecting neurons for example analyze a small region of the visual image and search for oriented edges within that region.  
 
@@ -49,24 +57,24 @@ Lets Try it!
 - Finding contrast in Images: https://classroom.udacity.com/courses/ud955/lessons/3186188679/concepts/32337687700923
 
 ### Filters
-Similarly, we need to think about neuron's and their filters as a matrices as well. However, DONT these matrices arent pixels. Instead think of them as weights that will be applied to the local region of the image pixels that the the neuron receives as inputs.   That is, the lines that connect the inputs to the neuron in  [figure X](link to fig) all have different weights that they apply to their inputs.
+Similarly, we need to think about neuron's and their filters as weights that will be applied to the image pixels.In [figure X](link to fig) a the lines that connect the image to the neuron have different 'weights'. 
 
-The local image region that the neuron looks at, and the weights that the neuron applies to inputs within this region, is referred to as the unit's [spatial receptive field](link to info on receptive fields)
+The local image region that the neuron looks at, and the weights that the neuron applies to inputs within this region, is referred to as the unit's [spatial receptive field](link_to_info_on_receptive fields)
 
 <u>Relationship to the perceptron</u>
 This is what the neuron's filter would look like if it were converted to a matrix. You can think about these number representing the strength and diection of the weight that is applied to the pixels. 
-
 
 ![Projection of image point](bmcASSETS/2013_Pratt_orientedfilters_eg.png)
 [Pratt](DIP_Ch15)
 ![](bmcASSETS/2018_williams_receptive_field_CNN.png)
 
 
-### The Linear Combination
+### Calculating Similarity: The Linear Combination
 Now that we've phrased images as an array of pixels, and filters as a matrix of weights assigned to image pixels, we can try answering the question: *how do neurons determine the similarity between their filter and the pixels that make up an image region?*
 
-A linear combination is one of many methods of computing the similarity between two entities. In this case, the neuron wants to determine the similarity between its filter and a local image region, and it can do this by taking each input, multiplying it by its corresponding weight, and adding the result. The larger the output, the more that the image region resembles the neuron's filter, and the more the neuron will 'beleive' that the image region contains that feature. 
-
+A linear combination is one of many methods of computing the similarity between two entities. In this case, the neuron wants to determine the similarity between its filter and a local image region, and it can do this by 
+- for each image pixel, multiply it with the filter's corresponding weight. Once finished, add all these results together to get a final output.
+-  The larger the output, the more that the image region resembles the neuron's filter, and the more the neuron will 'beleive' that the image region contains that feature. 
 
 Notice how the filter IS essentially the array of weights that the neuron assigns to each of its pixels (see the perceptron model above). 
 

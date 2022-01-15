@@ -26,8 +26,6 @@ We can visualize these properties using a simple plot, known as the orientation 
 Remember our discussion on [tuning curves](). Orientation Tuning curves are a description of a neurons output in response to an oriented stimulus. A classical tuning curve of orientation selective neurons is roughly bell shaped, ![shown here in figure A](bmcASSETS/population_tuning_curves_classical.png).  
 
 
-
-
 ### Off-balanced networks
 So how does the activity of these cells inform us about the angle of an object in the visual scene?
 
@@ -38,7 +36,6 @@ What happens you view a orientated object, for example, a vertical grating? Such
 <u>Lets highlight two key points that have been made up to this point</u>
 - Your visual system contains units that are tuned to a variety of orientations.
 - Orientation is perceives when there is an imbalance in the activity of cells tuned to different orientation. 
-
 
 
 ## Population response
