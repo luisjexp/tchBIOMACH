@@ -5,29 +5,30 @@ This repo contains teaching material about machine vision, machine learning, and
 # Links to Teaching Notes/Material
 
 BASICS
-[Tuning Curves](feature_tuning_curves_nts.md)
+- [Tuning Curves](feature_tuning_curves_nts.md)
+- [Building Tuning Curves w/python](https://colab.research.google.com/drive/1-0x_3AThS6Xq-H42Y5TaeTRMm9OdmeYh?usp=sharing)
+
 
 PATHWAYS
-[Orientation](feature_orientation.md)
-[Orientation: SCM Model](https://docs.google.com/presentation/d/1khLvFEgv2BJ3aybL9Ek6Tx1o4SC_gBrC0ljZtpgxwh0/edit#slide=id.p) or [pdf version (may not be updated)](mod_maps_LIM.pdf)
-
-[Motion (building)]()
-[Contrast Polarity (building)]()
+- [Orientation](feature_orientation.md)
+- [Orientation: SCM Model](https://docs.google.com/presentation/d/1khLvFEgv2BJ3aybL9Ek6Tx1o4SC_gBrC0ljZtpgxwh0/edit#slide=id.p) or [pdf version (may not be updated)](mod_maps_LIM.pdf)
+- [Motion (building)]()
+- [Contrast Polarity (building)]()
 
 
 REGIONS
-[Images (building)]()
-[Retina](layer_retina.md)
-[LGN (building)]()
-[V1 (building)]()
+- [Images (building)]()
+- [Retina](layer_retina.md)
+- [LGN (building)]()
+- [V1 (building)]()
 
 ILLUSIONS
-[why study visual illusions](...)
-[illusions for kids](ill_4kids.md)
-[Tilt Illusion]()
-[Herman's Grid](...)
-[Motion After Effect (building)](...)
-[Kanitza (building)](...)
+- [why study visual illusions](ill_INTRO)
+- [illusions for kids](ill_4kids.md)
+- [Tilt Illusion](ill_tilt_direct)
+- [Herman's Grid](ill_herman.md)
+- [Motion After Effect (building)](...)
+- [Kanitza (building)](...)
 
 
 
